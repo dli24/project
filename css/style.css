@@ -1,0 +1,528 @@
+* {
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+
+}
+/* ======================TOP HEADER================== */
+#hamburger {
+    visibility: hidden;
+}
+
+header {
+    height: 100vh;
+    width: 100vw;
+    background-image:url("../images/room.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    background: black;
+    opacity: 0.4;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+
+}
+
+.navigation:hover{
+    opacity: .8;
+}
+
+.navigation .home {
+    width: 28vw;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-size: 1.7em;
+    color: white;
+    text-decoration: none;
+    align-self: center;
+}
+
+.top-ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: flex-end;
+    width: 75vw;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.top-ul li a{
+    margin-right: 2em;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.top-ul li a:hover{
+    border-bottom: 3px solid white;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+
+/* =================About=================== */
+#about {
+    height: 90vh;
+    background-image:url("../images/atom.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#about h2 {
+    text-align: right;
+    margin-top: 4%;
+    margin-right: 3%;
+    font-size: 2.5em;
+    font-family: 'Baloo Chettan', sans-serif;
+}
+.line-break{
+    border-top: 2px solid black;
+    margin-left: 87%;
+    margin-bottom: 2%;
+    margin-right: 3%;
+}
+#about h3 {
+    margin-top: .5em;
+    text-align: right;
+    font-family: 'Raleway', sans-serif;
+    margin-right: 3%;
+}
+#about h4 {
+    margin-top: 8%;
+    font-size: 1.5em;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 40%;
+}
+.about-me p {
+    text-align: left;
+    margin-left: 40%;
+    margin-right: 3%;
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+/* ===============PROJECT========================= */
+main {  
+    background-image: url("../images/gray.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#project {
+    height: 90vh;
+    width: 70vw; 
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    margin-top: 5%;
+}
+#project h5 {
+    font-size: 2em;
+    color: white;
+    font-family: 'Baloo Chettan', sans-serif;
+}
+.carousel-inner {
+    height: 70vh;
+    /* width: 100px; */
+    border: 1px solid rgb(145, 143, 143);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.carousel-item{
+    width: 100%;
+}
+.carousel-control-next:hover{
+    background: grey;
+    opacity: .7;
+}
+.carousel-control-prev:hover{
+    background: grey;
+    opacity: .7;
+}
+
+
+/* ==================CONTACT=================== */
+
+#contact {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-contact {
+    width: 50%;
+}
+.left-contact p {
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Baloo Chettan', sans-serif;
+}
+input{
+    border: 2px solid grey;
+}
+input.name {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+}
+input.email {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+}
+input.message {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+    padding-bottom: 35%;
+}
+input.submit {
+    margin-left: 10%;
+    margin-right: 10%;
+    background: #87CEEB;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+.map {
+    width: 50%;
+}
+.map p {
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Baloo Chettan', sans-serif;
+}
+/* .map-size{
+    width: 80%;
+} */
+.location {
+    width: 80%;
+    height: 60vh;
+    margin-left: 10%;
+}
+
+/* ==============quote==================== */
+#quote {
+    height: 80vh;
+    background: url("../images/iphone.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 3%; 
+}
+#quote h6 {
+    text-align: right;
+    font-size: 3em;
+    font-family: 'Baloo Chettan', sans-serif;
+    margin-right: 12%;
+}
+#quote li{
+    text-align: left;
+    margin-right: 8%;
+    margin-left: 70%;
+    font-size: 1.7em;
+}
+
+
+/* ===============FOOTER===================== */
+
+footer {
+    height: 20vh;
+    width: 100vw;
+    background: #242729;
+}
+
+.social ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.social li i {
+    color:white;
+    font-size: 2em;
+    margin-top: 10%;
+    margin-right: 2em;
+}
+.copyright {
+    margin-top: 3%;
+    color: white;
+    text-align: center;
+}
+
+/* =============Media Queries 850px============ */
+
+@media only screen and (max-width: 850px)
+{
+body{
+    max-width: 850px;
+}
+.navigation .home {
+    width: 16vw;
+    font-size: 1.2em;
+}
+.top-ul {
+    /* justify-content: flex-end; */
+    width: 60vw;
+    margin-left: 20%;
+}
+.top-ul li a{
+    margin-right: 2em;
+    text-decoration: none;
+    font-size: 1em;
+}
+#about h2 {
+    font-size: 1.5em;
+}
+
+#about h3 {
+    font-size: 1.3em;
+}
+#about h4 {
+    margin-top: 8%;
+    font-size: 1.2em;
+    margin-left: 50%;
+}
+.about-me p {
+    margin-left: 50%;
+    margin-right: 3%;
+    font-size: .8em;
+}
+#project {
+    height: 70vh;
+    width: 70vw; 
+}
+#project h5 {
+    font-size: 1.5em;
+}
+.carousel-inner {
+    height: 55vh;
+}
+.carousel-item img{
+    width: 100vw;
+    height: 100vh;
+}
+#quote {
+    height: 60vh;
+    margin-top: 3%; 
+}
+#quote h6 {
+    font-size: 2.3em;
+}
+#quote li{
+    font-size: 1.4em;
+}
+footer {
+    height: 15vh;
+    width: 100vw;
+}
+.social li i {
+    color:white;
+    font-size: 1.5em;
+    margin-top: 10%;
+    margin-right: 2em;
+}
+}
+
+/* =============Media Queries 590px============ */
+
+@media only screen and (max-width: 590px)
+{
+body{
+    max-width: 590px;
+}
+#hamburger {
+    visibility: visible;
+    font-size: 1.2em;
+}
+header {
+    height: 100vh;
+    width: 100vw;
+    background-image:url("../images/smallroom.jpg");
+}
+#about {
+    background-image:url("../images/floor.jpeg");
+}
+
+#about h2 {
+    font-size: 2em;
+}
+#about h3 {
+    margin-top: .4em;
+
+}
+#about h4 {
+    margin-top: 4%;
+    font-size: 1.4em;
+    margin-left: 10%;
+}
+.about-me p {
+    margin-left: 10%;
+    font-size: .9em;  
+}
+main {  
+    background-image: url("../images/darkroom.jpg");
+}
+
+#contact {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-contact {
+    width: 50%;
+}
+.left-contact p {
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Baloo Chettan', sans-serif;
+}
+input{
+    border: 2px solid grey;
+}
+input.name {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+}
+input.email {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+}
+input.message {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 3%;
+    padding-bottom: 35%;
+}
+input.submit {
+    margin-left: 10%;
+    margin-right: 10%;
+    background: #87CEEB;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+.left-contact {
+    width: 100%;
+}
+.left-contact p {
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Baloo Chettan', sans-serif;
+}
+input{
+    border: 2px solid grey;
+}
+input.name {
+    margin-top: 0;
+    margin-bottom: 1%;
+}
+input.email {
+    margin-bottom: 1%;
+}
+input.message {
+    margin-bottom: 1%;
+    padding-bottom: 30%;
+}
+input.submit {
+    background: #87CEEB;
+}
+.map p {
+  visibility: hidden;
+}
+.location {
+    visibility: hidden;
+}
+#quote {
+    background: url("../images/telephone.jpg");
+    margin-top: 2%; 
+}
+#quote h6 {
+    font-size: 2em;
+    font-family: 'Baloo Chettan', sans-serif;
+    margin-right: 12%;
+}
+#quote li{
+    text-align: left;
+    margin-right: 8%;
+    margin-left: 60%;
+    font-size: 1em;
+}
+footer {
+    height: 15vh;
+}
+.social li i {
+    font-size: 1.5em;
+}
+
+.navChange {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    /* visibility: hidden; */
+}
+/* .home addClass ====== */
+.home1 {
+    height:10vh;
+    width: 28vw;
+    text-align: center;
+    font-size: 1.7em;
+    align-self: center;
+}
+
+/* .top-ul addClass==== */
+.top-ul1 {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: flex-end;
+    width: 10vw;
+    margin-top: 2%;
+}
+.navigation .home {
+    visibility: hidden;
+}
+ .top-ul li a{
+    visibility: hidden;
+}
+}
+
+/* ========================================= */
+
+.errorName {
+    border: 2px solid red;
+}
