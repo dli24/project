@@ -1,12 +1,12 @@
 # Project for building an About Me Site
 
-####Overview
+#### Overview
 
 This project I have create is based on what I have learned in the past 3 weeks of my coding skill and make it as an Personal Page. Technology I have used are HTML/CSS/JAVASCRIPT, which are the past three weeks that I have been training on. 
 
 ---
 
-####Requirement for this project
+#### Requirement for this project
 
 Below are the requirement checkbox which I will need to use to accomplish this project.
 
@@ -24,7 +24,6 @@ Below are the requirement checkbox which I will need to use to accomplish this p
 #### My Process or Approach 
 My process through this whole project is using HTML and CSS for the whole project to create it's design and functionality. The deliverable for this project is to let user to have a better experience on working to look over my Personal Website. For the project, I have used many source and knowledge I have learn from my GA class and thanks to my instructor, I have been able to create such an creative website. 
 
-
 ---
 
 ####Unsolved Problem
@@ -40,10 +39,30 @@ Since I have tried my best on creating this website, this website still have man
 
 ---
 
-####
+#### Bigest Wins and Challenge. Deliverables
 
+Creating the whole website are Challenging. Flexbox and Grid are very Challegening and it feel very good to overcome this challenge. I spend a lot of time to organize the flex box and at last, when I really overcome how this function, it really feels good! 
+
+APIs- I have made an API google map on my page. The Map is not really difficult or challenging to put in the website, but as an backend lover, this accomplishment felt good also. Not a big challenge, but a huge satisfication.
+
+#### Deliverables. Below are my Deliverables for my Website.
+
+First Page-which is the Home Page
 
 ![alt text](Screenshots/My_First_Page.png "My First Page")
+
+About Me- Brief Explanation about my self
+![alt text](Screenshots/about_me.png "About Me Page")
+
+Project- Project or lab which I have accomplish the last 3 weeks
+![alt text](Screenshots/project_page.png "My Project Page")
+
+Contact Page- Page for User Feedback or Contact info
+![alt text](Screenshots/contact_page.png "My Contact Page")
+
+Quoting- Quote and testimonial from what other people comment on me.
+![alt text](Screenshots/quote_page.png "My Quote Page")
+
 
 
 
