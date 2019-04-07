@@ -28,18 +28,14 @@ $('#hamburger').on('click', function(){
 $('.submit').on('click', function(event){
     event.preventDefault();
 
-$('form').html("<p>THANK FOR THE SUBMIT!!!</p>")
-    
-
-
-$('.name, input[name="email"]').each(function(){
+$('form input').each(function(){
     if($(this).val() === ""){
         let $theField = $(this)
-        $theField.addClass('error').fadeIn();
+        $theField.addClass('errorName').fadeIn();
     } else {
         let $theField = $(this)
-        $theField.removeClass('error');
-
+        $theField.removeClass('errorName');
+        $('form').html("<p>THANK FOR THE SUBMIT!!!</p>")
     }
 
 })
