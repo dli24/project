@@ -22,7 +22,7 @@ Below are the requirement checkbox which I will need to use to accomplish this p
 ---
 
 #### My Process or Approach 
-My process through this whole project is using HTML and CSS for the whole project to create it's design and functionality. The deliverable for this project is to let user to have a better experience on working to look over my Personal Website. For the project, I have used many source and knowledge I have learn from my GA class and thanks to my instructor, I have been able to create such an creative website. 
+My process through this whole project is using HTML/CSS/JAVASCRIPT and BOOTSTRAP for the whole project to create it's design and functionality. The deliverable for this project is to let user to have a better experience on working to look over my Personal Website. For the project, I have used many source and knowledge I have learn from my GA class and thanks to my instructor, I have been able to create such an creative website. 
 
 ---
 
