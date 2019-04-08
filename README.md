@@ -26,7 +26,7 @@ My process through this whole project is using HTML and CSS for the whole projec
 
 ---
 
-####Unsolved Problem
+#### Unsolved Problem
 Since I have tried my best on creating this website, this website still have many bugs and problem that are difficult to solve on the limited time that this project need to be finished. 
 
  - Carousel Image- I have spend very long on modifying the images inside the Carousel that I have taken from BootStrap, but there are some stuff that I can or cannot modify from it. I cannot modify the image that have been pust inside the Carousel when I minimize the screen small from using Media Queries. There might be a way, but I have tried a long time which I run out of luck and ideas 
